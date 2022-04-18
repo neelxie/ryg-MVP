@@ -1,0 +1,88 @@
+.Home{
+  display: flex;
+  flex-direction: row;
+}
+
+.LogoIcon{
+  height: 30px;
+}
+
+.Main{
+  background: #f1f1f1;
+  min-height: 100vh;
+}
+
+.MainTop{
+  border: 1px solid white;
+  border-radius: 5px;
+  background: #ffa700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+
+.Teams{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
+  gap: 2rem;
+}
+
+.Team{
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 1.5rem 0rem;
+  min-height: 150px;
+  display: grid;
+}
+
+.TeamSelection{
+  display: flex;
+  width: -webkit-fill-available;
+}
+
+.TeamName{
+  font-size: large;
+  font-weight: bold;
+  margin-left: 2rem;
+  text-align: left;
+}
+
+.SelectionCardDetails{
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  padding-top: 1rem;
+}
+.TeamMembers{
+  text-align: start;
+  font-size: large;
+  font-weight: bold;
+  outline: 1px solid #ffa700;
+  background: #f1f1f1;
+  padding: .3rem;
+  border-radius: 5px;
+}
+
+.Emotion{
+  text-align: start;
+  list-style-type: disc;
+  margin-left: 1rem;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+.EmotionsListTitle{
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.EmotionsSection{
+  border: 1px solid #ffa700;
+  border-radius: 5px;
+  padding: .2rem;
+  height: -webkit-fill-available;
+  background: #f1f1f1;
+}
+
